@@ -7,7 +7,7 @@ const Footer = () => {
         <div className='text-[#d9d9d9] bg-[#323232] flex flex-col items-center gap-[20px] py-[20px] px-[5vw] sm:px-[8vw] pt-[80px] mt-[100px]' id='footer'>
             <div className='w-[100%] grid grid-cols-1 sm:grid-cols-[1fr_1fr] lg:grid-cols-[2fr_1fr_1fr] gap-[30px] sm:gap-[50px] lg:gap-[80px]'>
                 <div className='flex flex-col gap-[20px] items-start'>
-                    <img src={assets.logo} alt="Logo" />
+                    <img src={assets.bg_remove} alt="Logo" />
                     <p className='text-[14px] sm:text-[16px]'>
                         Craving something delicious? Let us bring the best local flavors right to your doorstep! Whether you're in the mood for a quick snack, a hearty meal, or something new and exciting, we've got it all. Explore our curated menus, place your order in seconds, and sit back while we take care of the rest. Fresh, fast, and always satisfying – food delivery made easy!
                     </p>
