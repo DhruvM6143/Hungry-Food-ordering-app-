@@ -11,7 +11,7 @@ const stripe = new Stripe("sk_test_51Q4d3LCflAMYa6y9dzGPtgpGkBDwExo8dTFHIPdHFHtO
 
 export const placeOrder = async (req, res) => {
 
-    const frontend_url = "http://localhost:5173"
+    const frontend_url = "https://hungry-food-frontend.onrender.com/"
     try {
         const newOrder = new OrderModel({
             userId: req.body.userId,
