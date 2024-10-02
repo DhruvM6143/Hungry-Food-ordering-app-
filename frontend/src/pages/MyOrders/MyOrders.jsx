@@ -24,7 +24,7 @@ const MyOrders = () => {
 
     return (
         <div className='m-[50px_0px]'>
-            <h2>My Orders</h2>
+            <h2 className='font-bold text-[40px] sm:text-[25px]'>My Orders</h2>
             <div className='flex flex-col gap-[20px] mt-[30px]'>
                 {
                     data.map((order, index) => {
