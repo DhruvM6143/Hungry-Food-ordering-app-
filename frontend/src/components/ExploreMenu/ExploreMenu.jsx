@@ -5,7 +5,6 @@ const ExploreMenu = ({ category, setCategory }) => {
         <div className='flex flex-col gap-[20px]' id='explore-menu'>
             <h1 className='text-[#262626] font-bold text-xl md:text-2xl lg:text-3xl'>Explore Our Menu</h1>
             <p className='max-w-[90%] sm:max-w-[70%] md:max-w-[60%] text-[#808080] font-bold text-sm sm:text-base md:text-lg'>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, error. Voluptas dolorem ab et adipisci. Quasi, quos beatae voluptatum excepturi doloremque neque exercitationem quisquam iure perferendis ab voluptatem incidunt harum.
             </p>
 
             <div className='flex justify-between items-center gap-[20px] sm:gap-[30px] text-center my-[20px] overflow-x-auto md:hide-scrollbar'>
