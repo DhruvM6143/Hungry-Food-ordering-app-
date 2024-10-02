@@ -6,11 +6,16 @@ import { toast } from 'react-toastify';
 const Cart = () => {
 
 
-    const { cartItems, food_list, removeFromCart, getTotalCartAmount, url } = useContext(StoreContext)
+    const { cartItems, food_list, removeFromCart, getTotalCartAmount, url, token } = useContext(StoreContext)
 
     const toastnotification = () => {
-        if (getTotalCartAmount() > 0) {
+        if (getTotalCartAmount() > 0 && token) {
             toast.success("Please Enter your Details")
+        }
+        else if (!token) {
+            toast.error("Please Login First")
+
+
         }
     }
 
