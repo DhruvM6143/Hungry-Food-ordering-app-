@@ -17,7 +17,7 @@ function App() {
 
   return (
     <>
-      <ToastContainer />
+      <ToastContainer autoClose={2000} />
       {
         showLogin ? <Loginpopup setShowLogin={setShowLogin} /> : <></>
       }
