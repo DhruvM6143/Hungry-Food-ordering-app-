@@ -38,12 +38,11 @@ export const registerUser = async (req, res) => {
 
         const userr = await newUser.save();
         const token = createToken(userr._id)
-        res.json({
+        return res.json({
             success: true,
             message: "User registered successfully",
             token
         })
-        console.log(token);
 
 
     }
@@ -81,7 +80,7 @@ export const loginUser = async (req, res) => {
             })
         }
         const token = createToken(user._id)
-        res.json({
+        return res.json({
             success: true,
             message: "User logged in successfully",
             token
