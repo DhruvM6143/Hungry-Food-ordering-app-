@@ -43,6 +43,8 @@ export const registerUser = async (req, res) => {
             message: "User registered successfully",
             token
         })
+        console.log(token);
+
 
     }
     catch (error) {
