@@ -8,7 +8,12 @@ const PORT = process.env.PORT || 4000;
 dotenv.config();
 //Middleware
 app.use(express.json())
-app.use(cors())
+app.use(cors({
+    cors:{
+        origin: "https://hungry-food-ordering-app-frontend.vercel.app",
+        credentials: true,
+    }
+}))
 app.use(cookieParser())
 
 connectDB()
