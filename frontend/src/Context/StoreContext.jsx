@@ -7,7 +7,7 @@ export const StoreContext = createContext(null);
 const StoreContextProvider = (props) => {
 
     const [cartItems, setCartItems] = useState({});
-    const url = "https://hungry-food-backend-mu3e.onrender.com"
+    const url = "https://hungry-food-ordering-app-backend.vercel.app"
     const [token, setToken] = useState("")
 
     const [food_list, setFoodList] = useState([]);
