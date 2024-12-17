@@ -9,7 +9,7 @@ dotenv.config();
 //Middleware
 app.use(express.json())
 app.use(cors({
-    origin: 'https://hungry-food-ordering-app-frontend.vercel.app',
+    origin: 'https://hungry-food-frontend.onrender.com',
     credentials: true
 }))
 app.use(cookieParser())
