@@ -9,7 +9,7 @@ import Order from './pages/Orders/Order'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 function App() {
-  const url = "https://hungry-food-backend-mu3e.onrender.com"
+  const url = "https://hungry-food-ordering-app-backend.vercel.app"
 
 
   return (
