@@ -10,7 +10,7 @@ dotenv.config();
 app.use(express.json())
 app.use(cors())
 app.use(cookieParser({
-    origin: 'http://localhost:5173',
+    origin: 'https://hungry-food-ordering-app-frontend.vercel.app',
     Credential: true
 }))
 
